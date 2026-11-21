@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CEICO//Seminars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CEICO seminar
+X-WR-TIMEZONE:Europe/Prague
+BEGIN:VTIMEZONE
+TZID:Europe/Prague
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-11-30-lorenzo-grimaldi@ceico.cz
+DTSTAMP:20261121T040330Z
+DTSTART;TZID=Europe/Prague:20261130T140000
+DTEND;TZID=Europe/Prague:20261130T150000
+SUMMARY:Strings: Lorenzo Grimaldi – One-loop self-energy of Type II heavy
+  string states
+LOCATION:Room 226
+DESCRIPTION:Lorenzo Grimaldi (Tor Vergata University of Rome\, Italy)\n\nOn
+ e-loop self-energy of Type II heavy string states\n\nThe free string spect
+ rum is highly degenerate\, with a degeneracy that grows exponentially with
+  the mass\, making highly excited strings natural candidates for black-hol
+ e microstates in the string/black-hole correspondence. A non-vanishing str
+ ing coupling $g_s$ makes massive states unstable and shifts their masses\,
+  partially lifting this degeneracy. At one loop\, the imaginary part of th
+ e self-energy gives the tree-level width for the decay into two lower-mass
+  states\, whereas the real part gives the mass shift and is generally IR-d
+ ivergent. We firstly focus on the states of maximal spin at each level in 
+ the NS-NS sector of Type II theories\, for which the analysis simplifies b
+ ecause they cannot mix with other states. Exploiting elliptic functions\, 
+ we obtain a closed-form expression for the worldsheet integral on the toru
+ s. We then regularize and renormalize the remaining modular integral via t
+ he $i\\varepsilon$-prescription\, extracting mass shifts and decay widths 
+ up to level $N=10$.\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-11
+ -30-lorenzo-grimaldi
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-11-30-lorenzo-grimaldi
+END:VEVENT
+END:VCALENDAR
+

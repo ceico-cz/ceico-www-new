@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CEICO//Seminars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CEICO seminar
+X-WR-TIMEZONE:Europe/Prague
+BEGIN:VTIMEZONE
+TZID:Europe/Prague
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-11-25-duarte-feiteira@ceico.cz
+DTSTAMP:20261121T040330Z
+DTSTART;TZID=Europe/Prague:20261125T113000
+DTEND;TZID=Europe/Prague:20261125T123000
+SUMMARY:Cosmo: Duarte Feiteira – Cosmological gravitational particle prod
+ uction and implications for dark matter phenomenology
+LOCATION:Institute of Plasma Physics building - room 421
+DESCRIPTION:Duarte Feiteira (University of Helsinki\, Finland)\n\nCosmologi
+ cal gravitational particle production and implications for dark matter phe
+ nomenology\n\nParticle production in the Early Universe is one of the corn
+ erstones of modern cosmology and plays an important role in dark matter ph
+ enomenology. In this talk\, I will first discuss the gravitational product
+ ion of scalars during inflation. I will compare Bogolyubov coefficient and
+  Starobinsky stochastic approaches\, showing that they only agree in the l
+ imit of infinitely long inflation. High-scale inflation is very efficient 
+ in particle production\, leading to constraints on the existence of free\,
+  light\, and stable scalars: such particles are viable only if their masse
+ s are below the eV scale or if the reheating temperature is in the GeV ran
+ ge. These constraints motivate scenarios in which dark matter is produced 
+ via low-temperature freeze-in. In this framework\, I will consider warm Hi
+ ggs portal dark matter. In scenarios where the Standard Model thermal bath
+  never reached high temperatures\, dark matter production can be suppresse
+ d. This allows for a significant dark matter-Higgs coupling\, enabling war
+ m dark matter detection via Higgs decay at colliders. I will further discu
+ ss the strong Lyman-α bound on the dark matter mass\, excluding masses be
+ low 50-100 keV\, and show how the shape of the warm dark matter momentum d
+ istribution is highly non-thermal and not captured by the commonly used α
+ βγ-parametrization.\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-
+ 11-25-duarte-feiteira
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-11-25-duarte-feiteira
+END:VEVENT
+END:VCALENDAR
+

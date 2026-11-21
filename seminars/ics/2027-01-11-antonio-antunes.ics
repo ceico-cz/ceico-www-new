@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CEICO//Seminars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CEICO seminar
+X-WR-TIMEZONE:Europe/Prague
+BEGIN:VTIMEZONE
+TZID:Europe/Prague
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2027-01-11-antonio-antunes@ceico.cz
+DTSTAMP:20261121T040330Z
+DTSTART;TZID=Europe/Prague:20270111T140000
+DTEND;TZID=Europe/Prague:20270111T150000
+SUMMARY:Strings: António Antunes – Towards the explicit construction of 
+ generic 2d CFTs
+LOCATION:Room 226
+DESCRIPTION:António Antunes (LPENS\, Paris\, France)\n\nTowards the explic
+ it construction of generic 2d CFTs\n\nOur understanding of interacting CFT
+ s in d>2 dimensions was revolutionized by modern developments in the analy
+ tical and numerical conformal bootstrap. The poster child of this program\
+ , the non-exactly solvable 3d Ising CFT\, is now understood to an unpreced
+ ented level of detail. In contrast\, our understanding of 2d CFTs encompas
+ ses large classes of exactly solvable models (the so-called rational CFTs)
+ \, and a set of universal bootstrap results which apply only to "generic" 
+ non-exactly solvable CFTs of which no concrete example is available. In th
+ is talk\, we summarize our recent attempts at constructing such theories b
+ y coupling exactly solvable CFTs and flowing to IR fixed points. We will d
+ iscuss perturbative and non-perturbative constructions as well as some dua
+ l bounds on the set of conserved currents in the IR..\n\nhttps://www.ceico
+ .cz/seminars/archive/2027/#2027-01-11-antonio-antunes
+URL:https://www.ceico.cz/seminars/archive/2027/#2027-01-11-antonio-antunes
+END:VEVENT
+END:VCALENDAR
+
