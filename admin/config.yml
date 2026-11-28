@@ -1,0 +1,792 @@
+{
+  "backend": {
+    "name": "gitlab",
+    "repo": "ceico-web/ceico-www-new",
+    "branch": "main",
+    "api_root": "https://gitlab.fzu.cz/api/v4",
+    "base_url": "https://gitlab.fzu.cz",
+    "auth_type": "pkce",
+    "auth_methods": [
+      "oauth"
+    ],
+    "app_id": "b2f7f53ef106cc1b42c49529b300af023b71845fb6654e846587c89200684c18",
+    "commit_messages": {
+      "create": "Add {{collection}} {{slug}}",
+      "update": "Update {{collection}} {{slug}}",
+      "delete": "Delete {{collection}} {{slug}}",
+      "uploadMedia": "Upload {{path}}",
+      "deleteMedia": "Delete {{path}}"
+    }
+  },
+  "site_url": "https://www.ceico.cz",
+  "display_url": "https://www.ceico.cz/seminars/",
+  "logo": {
+    "src": "/assets/brand/logos/ceico-icon-compact.svg"
+  },
+  "media_folder": "src/assets/img/uploads",
+  "public_folder": "/assets/img/uploads",
+  "collections": [
+    {
+      "name": "seminars",
+      "label": "Seminars",
+      "label_singular": "Seminar",
+      "description": "One entry per talk. Talks move from \"Upcoming\" to the archive automatically the day after they take place.",
+      "folder": "src/seminars",
+      "extension": "md",
+      "format": "frontmatter",
+      "create": true,
+      "delete": true,
+      "slug": "{{fields.date | date('YYYY-MM-DD')}}-{{fields.speaker}}",
+      "identifier_field": "speaker",
+      "summary": "{{fields.date | date('YYYY-MM-DD HH:mm')}} · {{fields.speaker}} — {{fields.title}}",
+      "sortable_fields": {
+        "fields": [
+          "date",
+          "speaker",
+          "title"
+        ],
+        "default": {
+          "field": "date",
+          "direction": "descending"
+        }
+      },
+      "view_filters": [
+        {
+          "label": "Cosmology",
+          "field": "series",
+          "pattern": "cosmology"
+        },
+        {
+          "label": "String theory",
+          "field": "series",
+          "pattern": "strings"
+        }
+      ],
+      "view_groups": [
+        {
+          "label": "Year",
+          "field": "date",
+          "pattern": "\\d{4}"
+        }
+      ],
+      "fields": [
+        {
+          "name": "date",
+          "label": "Date and time",
+          "widget": "datetime",
+          "format": "YYYY-MM-DDTHH:mm",
+          "date_format": "DD.MM.YYYY",
+          "time_format": "HH:mm",
+          "hint": "Prague time."
+        },
+        {
+          "name": "series",
+          "label": "Series",
+          "widget": "select",
+          "default": "cosmology",
+          "options": [
+            {
+              "label": "Cosmology",
+              "value": "cosmology"
+            },
+            {
+              "label": "String theory",
+              "value": "strings"
+            },
+            {
+              "label": "Colloquium",
+              "value": "colloquium"
+            },
+            {
+              "label": "Other CEICO seminar",
+              "value": "seminar"
+            }
+          ]
+        },
+        {
+          "name": "speaker",
+          "label": "Speaker",
+          "widget": "string",
+          "hint": "Full name, e.g. Jane Doe."
+        },
+        {
+          "name": "affiliation",
+          "label": "Affiliation",
+          "widget": "string",
+          "required": false,
+          "hint": "Institution, city, country, e.g. University of Helsinki, Finland."
+        },
+        {
+          "name": "title",
+          "label": "Talk title",
+          "widget": "string",
+          "required": false,
+          "hint": "Leave empty or write TBA if not known yet."
+        },
+        {
+          "name": "location",
+          "label": "Room",
+          "widget": "string",
+          "required": false,
+          "hint": "e.g. Room 226, Lecture Hall, Adéla Kochanovská Hall. Leave empty for online-only talks."
+        },
+        {
+          "name": "online",
+          "label": "Online (Zoom)",
+          "widget": "boolean",
+          "required": false,
+          "default": false
+        },
+        {
+          "name": "link",
+          "label": "Online link",
+          "widget": "string",
+          "required": false,
+          "hint": "Zoom or other link shown on the website. Leave empty if the talk is not streamed."
+        },
+        {
+          "name": "abstract",
+          "label": "Abstract",
+          "widget": "text",
+          "required": false,
+          "hint": "Plain text. Leave a blank line between paragraphs. LaTeX such as $g_s$ is rendered."
+        },
+        {
+          "name": "cancelled",
+          "label": "Cancelled",
+          "widget": "boolean",
+          "required": false,
+          "default": false,
+          "hint": "Keeps the talk on the website, struck through and marked as cancelled."
+        }
+      ]
+    },
+    {
+      "name": "people",
+      "label": "Team",
+      "label_singular": "Person",
+      "description": "One entry per person. The profile page and the Team and Research pages are built from these. Publications are fetched from INSPIRE-HEP every day. You can edit your own profile only. Name, surname, position, research groups and GitLab username are changed by the website admins (Maintainers of the GitLab project).",
+      "folder": "src/people",
+      "extension": "md",
+      "format": "frontmatter",
+      "create": false,
+      "delete": false,
+      "slug": "{{fields.name}}",
+      "identifier_field": "name",
+      "summary": "{{fields.name}} · {{fields.category}}",
+      "sortable_fields": {
+        "fields": [
+          "name",
+          "category"
+        ],
+        "default": {
+          "field": "category",
+          "direction": "ascending"
+        }
+      },
+      "view_groups": [
+        {
+          "label": "Position",
+          "field": "category"
+        }
+      ],
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "widget": "string",
+          "readonly": true
+        },
+        {
+          "name": "category",
+          "label": "Position",
+          "widget": "select",
+          "default": "postdocs",
+          "options": [
+            {
+              "label": "Co-lead",
+              "value": "leads"
+            },
+            {
+              "label": "Senior researcher",
+              "value": "researchers"
+            },
+            {
+              "label": "Postdoc",
+              "value": "postdocs"
+            },
+            {
+              "label": "PhD student",
+              "value": "students"
+            },
+            {
+              "label": "Technician",
+              "value": "technicians"
+            },
+            {
+              "label": "Former member (alumni)",
+              "value": "alumni"
+            },
+            {
+              "label": "Not shown (staging)",
+              "value": "staging"
+            }
+          ],
+          "hint": "Moving someone to another position changes the address of their profile page.",
+          "readonly": true
+        },
+        {
+          "name": "surname",
+          "label": "Surname for sorting",
+          "widget": "string",
+          "required": false,
+          "hint": "People are listed alphabetically by surname, taken as the last word of the name. Fill this in only when the surname has more words, e.g. Moreira Delgado.",
+          "readonly": true
+        },
+        {
+          "name": "area",
+          "label": "Research area",
+          "widget": "string",
+          "required": false,
+          "hint": "Short label shown under the name, e.g. Cosmology or String theory. Leave empty to show the research groups instead."
+        },
+        {
+          "name": "groups",
+          "label": "Research groups",
+          "widget": "select",
+          "multiple": true,
+          "required": false,
+          "options": [
+            {
+              "label": "Cosmology",
+              "value": "cosmology"
+            },
+            {
+              "label": "Gravity",
+              "value": "theory-of-gravity"
+            },
+            {
+              "label": "String theory",
+              "value": "string-theory"
+            },
+            {
+              "label": "Instrumentation for cosmology",
+              "value": "instrumentation-observations"
+            }
+          ],
+          "hint": "The person is listed on these group pages.",
+          "readonly": true
+        },
+        {
+          "name": "photo",
+          "label": "Photo",
+          "widget": "image",
+          "required": false,
+          "media_folder": "/src/assets/img/people",
+          "public_folder": "/assets/img/people",
+          "hint": "Square, at least 500 × 500 pixels. Without a photo, initials are shown."
+        },
+        {
+          "name": "phd",
+          "label": "PhD",
+          "widget": "string",
+          "required": false,
+          "hint": "Institution and year, e.g. SISSA, Trieste, 2001"
+        },
+        {
+          "name": "career",
+          "label": "Career",
+          "widget": "list",
+          "required": false,
+          "summary": "{{fields.when}} {{fields.what}}",
+          "fields": [
+            {
+              "name": "when",
+              "label": "Years",
+              "widget": "string",
+              "hint": "e.g. 2018– or 2014–2018"
+            },
+            {
+              "name": "what",
+              "label": "Position",
+              "widget": "string",
+              "hint": "Institution; position"
+            }
+          ]
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "widget": "string",
+          "required": false,
+          "hint": "Shown spam-protected on the website."
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "office",
+          "label": "Office",
+          "widget": "string",
+          "required": false,
+          "hint": "e.g. Office 211"
+        },
+        {
+          "name": "inspire",
+          "label": "INSPIRE-HEP author ID",
+          "widget": "string",
+          "required": false,
+          "hint": "e.g. J.Raeymaekers.1, shown on the person's INSPIRE author profile. Leave empty if there is none."
+        },
+        {
+          "name": "publications",
+          "label": "Publications shown",
+          "widget": "select",
+          "default": "latest",
+          "options": [
+            {
+              "label": "Latest 5 from INSPIRE-HEP",
+              "value": "latest"
+            },
+            {
+              "label": "Selected (arXiv numbers below)",
+              "value": "selected"
+            }
+          ]
+        },
+        {
+          "name": "selected",
+          "label": "Selected publications (arXiv numbers)",
+          "widget": "list",
+          "required": false,
+          "hint": "Used only when \"Selected\" is chosen above, e.g. 1510.00583 or hep-th/0511286."
+        },
+        {
+          "name": "publications_link",
+          "label": "Other publication list (link)",
+          "widget": "string",
+          "required": false,
+          "hint": "Optional, e.g. a NASA ADS query for papers not on INSPIRE."
+        },
+        {
+          "name": "gitlab",
+          "label": "FZU GitLab username",
+          "widget": "string",
+          "required": false,
+          "hint": "Links this profile to the person's gitlab.fzu.cz account.",
+          "readonly": true
+        },
+        {
+          "name": "body",
+          "label": "Profile text",
+          "widget": "markdown",
+          "required": false,
+          "hint": "Research interests and background. Publications are added automatically."
+        }
+      ]
+    },
+    {
+      "name": "pages",
+      "label": "Page texts",
+      "files": [
+        {
+          "name": "contact",
+          "label": "Contact page",
+          "file": "src/_data/contact.json",
+          "format": "json",
+          "description": "The general email address is set in src/_data/site.js.",
+          "fields": [
+            {
+              "name": "intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "phone",
+              "label": "Phone",
+              "widget": "string"
+            },
+            {
+              "name": "fax",
+              "label": "Fax",
+              "widget": "string",
+              "required": false
+            },
+            {
+              "name": "address",
+              "label": "Mailing address lines",
+              "widget": "list"
+            },
+            {
+              "name": "address_note",
+              "label": "Note under the address",
+              "widget": "string",
+              "required": false
+            },
+            {
+              "name": "people",
+              "label": "Research contacts",
+              "widget": "list",
+              "summary": "{{fields.topic}}: {{fields.person}}",
+              "fields": [
+                {
+                  "name": "topic",
+                  "label": "Topic",
+                  "widget": "string"
+                },
+                {
+                  "name": "person",
+                  "label": "Person",
+                  "widget": "relation",
+                  "collection": "people",
+                  "value_field": "{{slug}}",
+                  "search_fields": [
+                    "name"
+                  ],
+                  "display_fields": [
+                    "name"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "links",
+              "label": "Links",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "string"
+                },
+                {
+                  "name": "url",
+                  "label": "Link",
+                  "widget": "string"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "get_here",
+          "label": "Get here page",
+          "file": "src/_data/getHere.json",
+          "format": "json",
+          "fields": [
+            {
+              "name": "intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "entrance",
+              "label": "Main entrance address",
+              "widget": "string"
+            },
+            {
+              "name": "postal",
+              "label": "Postal address",
+              "widget": "string"
+            },
+            {
+              "name": "inside",
+              "label": "Inside the building",
+              "widget": "text"
+            },
+            {
+              "name": "map",
+              "label": "Map",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "name": "lat",
+                  "label": "Latitude",
+                  "widget": "number",
+                  "value_type": "float"
+                },
+                {
+                  "name": "lon",
+                  "label": "Longitude",
+                  "widget": "number",
+                  "value_type": "float"
+                },
+                {
+                  "name": "bbox",
+                  "label": "Map area (west,south,east,north)",
+                  "widget": "string"
+                }
+              ]
+            },
+            {
+              "name": "routes",
+              "label": "Directions",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "duration",
+                  "label": "Duration",
+                  "widget": "string",
+                  "required": false,
+                  "hint": "e.g. about 25 minutes"
+                },
+                {
+                  "name": "lines",
+                  "label": "Lines",
+                  "widget": "list",
+                  "required": false,
+                  "hint": "e.g. Metro C, Trolleybus 59"
+                },
+                {
+                  "name": "steps",
+                  "label": "Steps",
+                  "widget": "list",
+                  "field": {
+                    "name": "step",
+                    "label": "Step",
+                    "widget": "text"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jobs",
+          "label": "Jobs page",
+          "file": "src/_data/jobs.json",
+          "format": "json",
+          "description": "Open positions themselves come from the job portal apply.ceico.cz.",
+          "fields": [
+            {
+              "name": "intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "paths",
+              "label": "Other ways to join",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "widget": "string"
+                },
+                {
+                  "name": "text",
+                  "label": "Text",
+                  "widget": "text"
+                },
+                {
+                  "name": "contacts",
+                  "label": "Contact people",
+                  "widget": "list",
+                  "required": false,
+                  "summary": "{{fields.topic}}: {{fields.person}}",
+                  "fields": [
+                    {
+                      "name": "topic",
+                      "label": "Topic",
+                      "widget": "string"
+                    },
+                    {
+                      "name": "person",
+                      "label": "Person",
+                      "widget": "relation",
+                      "collection": "people",
+                      "value_field": "{{slug}}",
+                      "search_fields": [
+                        "name"
+                      ],
+                      "display_fields": [
+                        "name"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "link",
+                  "label": "Link",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "link_text",
+                  "label": "Link text",
+                  "widget": "string",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "help",
+              "label": "Technical help sentence",
+              "widget": "string",
+              "hint": "The contact email address is added after this sentence."
+            }
+          ]
+        },
+        {
+          "name": "funding",
+          "label": "Funding page",
+          "file": "src/_data/funding.json",
+          "format": "json",
+          "fields": [
+            {
+              "name": "intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "grants",
+              "label": "Grants",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "programme",
+                  "label": "Funder and programme",
+                  "widget": "string"
+                },
+                {
+                  "name": "title",
+                  "label": "Project title",
+                  "widget": "string"
+                },
+                {
+                  "name": "logo",
+                  "label": "Logo",
+                  "widget": "image",
+                  "media_folder": "/src/assets/img/funders",
+                  "public_folder": "/assets/img/funders"
+                },
+                {
+                  "name": "logo_alt",
+                  "label": "Logo description",
+                  "widget": "string",
+                  "hint": "Name of the funder, read out by screen readers."
+                },
+                {
+                  "name": "holder",
+                  "label": "Principal investigator",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "holder_url",
+                  "label": "Profile link",
+                  "widget": "string",
+                  "required": false,
+                  "hint": "e.g. /team/leads/constantinos-skordis/"
+                },
+                {
+                  "name": "text",
+                  "label": "Description",
+                  "widget": "text"
+                },
+                {
+                  "name": "facts",
+                  "label": "Key facts",
+                  "widget": "list",
+                  "required": false,
+                  "summary": "{{fields.label}}: {{fields.value}}",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Label",
+                      "widget": "string",
+                      "hint": "e.g. Grant number, Period, Amount"
+                    },
+                    {
+                      "name": "value",
+                      "label": "Value",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "positions",
+              "label": "Join us text",
+              "widget": "text"
+            }
+          ]
+        },
+        {
+          "name": "seminar_info",
+          "label": "Seminars page introduction",
+          "file": "src/_data/seminarInfo.json",
+          "format": "json",
+          "fields": [
+            {
+              "name": "intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "regular",
+              "label": "Regular seminars",
+              "widget": "list",
+              "fields": [
+                {
+                  "name": "series",
+                  "label": "Series",
+                  "widget": "select",
+                  "options": [
+                    {
+                      "label": "Cosmology",
+                      "value": "cosmology"
+                    },
+                    {
+                      "label": "String theory",
+                      "value": "strings"
+                    },
+                    {
+                      "label": "Colloquium",
+                      "value": "colloquium"
+                    },
+                    {
+                      "label": "Other CEICO seminar",
+                      "value": "seminar"
+                    }
+                  ]
+                },
+                {
+                  "name": "when",
+                  "label": "When",
+                  "widget": "string",
+                  "hint": "e.g. Mondays at 14:00"
+                },
+                {
+                  "name": "where",
+                  "label": "Where",
+                  "widget": "string",
+                  "hint": "e.g. Room 226"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

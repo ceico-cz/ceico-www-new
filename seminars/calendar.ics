@@ -1,0 +1,938 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CEICO//Seminars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CEICO seminars
+X-WR-TIMEZONE:Europe/Prague
+BEGIN:VTIMEZONE
+TZID:Europe/Prague
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2025-12-03-anjali-abirami-kugarajh@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20251203T113000
+DTEND;TZID=Europe/Prague:20251203T123000
+SUMMARY:Cosmo: Anjali Abirami Kugarajh – Scalar-Induced Gravitational Wav
+ es as a probe for Modified Gravity
+LOCATION:Lecture Hall
+DESCRIPTION:Anjali Abirami Kugarajh (GSSI\, L'Aquila\, Italy)\n\nScalar-Ind
+ uced Gravitational Waves as a probe for Modified Gravity\n\nhttps://www.ce
+ ico.cz/seminars/archive/2025/#2025-12-03-anjali-abirami-kugarajh
+URL:https://www.ceico.cz/seminars/archive/2025/#2025-12-03-anjali-abirami-k
+ ugarajh
+END:VEVENT
+BEGIN:VEVENT
+UID:2025-12-10-sebastian-murk@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20251210T113000
+DTEND;TZID=Europe/Prague:20251210T123000
+SUMMARY:Cosmo: Sebastian Murk – Physical implications of horizon formatio
+ n in finite asymptotic time
+LOCATION:Lecture Hall
+DESCRIPTION:Sebastian Murk (Charles University\, Prague)\n\nPhysical implic
+ ations of horizon formation in finite asymptotic time\n\nhttps://www.ceico
+ .cz/seminars/archive/2025/#2025-12-10-sebastian-murk
+URL:https://www.ceico.cz/seminars/archive/2025/#2025-12-10-sebastian-murk
+END:VEVENT
+BEGIN:VEVENT
+UID:2025-12-17-mak-pavicevic@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20251217T113000
+DTEND;TZID=Europe/Prague:20251217T123000
+SUMMARY:Cosmo: Mak Pavicevic – Effects of primordial magnetism on structu
+ re formation\, galaxies\, and intergalactic medium
+LOCATION:Sál A. Kochanovské
+DESCRIPTION:Mak Pavicevic (SISSA\, Trieste\, Italy)\n\nEffects of primordia
+ l magnetism on structure formation\, galaxies\, and intergalactic medium\n
+ \nhttps://www.ceico.cz/seminars/archive/2025/#2025-12-17-mak-pavicevic
+URL:https://www.ceico.cz/seminars/archive/2025/#2025-12-17-mak-pavicevic
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-14-herman-sletmoen@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260114T113000
+DTEND;TZID=Europe/Prague:20260114T123000
+SUMMARY:Cosmo: Herman Sletmoen – SymBoltz.jl: A symbolic-numeric\, approx
+ imation-free and differentiable Einstein-Boltzmann code
+LOCATION:Lecture Hall
+DESCRIPTION:Herman Sletmoen (University of Oslo\, Oslo\, Norway)\n\nSymBolt
+ z.jl: A symbolic-numeric\, approximation-free and differentiable Einstein-
+ Boltzmann code\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-01-14-h
+ erman-sletmoen
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-01-14-herman-sletmoen
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-16-petr-horava@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260116T140000
+DTEND;TZID=Europe/Prague:20260116T150000
+SUMMARY:Strings: Petr Hořava – Topological Untwist in Quantum Gravity of
+  the Ricci Flow
+LOCATION:Room 226
+DESCRIPTION:Petr Hořava (University of California Berkeley\, USA)\n\nTopol
+ ogical Untwist in Quantum Gravity of the Ricci Flow\n\nhttps://www.ceico.c
+ z/seminars/archive/2026/#2026-01-16-petr-horava
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-01-16-petr-horava
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-19-n-emil-j-bjerrum-bohr@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260119T140000
+DTEND;TZID=Europe/Prague:20260119T150000
+SUMMARY:Strings: N. Emil J. Bjerrum-Bohr – General Relativity from Quantu
+ m Scattering Amplitudes
+LOCATION:Room 226
+DESCRIPTION:N. Emil J. Bjerrum-Bohr (Niels Bohr Institute\, University of C
+ openhagen\, Denmark)\n\nGeneral Relativity from Quantum Scattering Amplitu
+ des\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-01-19-n-emil-j-bje
+ rrum-bohr
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-01-19-n-emil-j-bjerrum
+ -bohr
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-21-josu-aurrekoetxea@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260121T113000
+DTEND;TZID=Europe/Prague:20260121T123000
+SUMMARY:Cosmo: Josu Aurrekoetxea – Scalar fields around black hole binari
+ es in LIGO-Virgo-KAGRA
+LOCATION:Lecture Hall
+DESCRIPTION:Josu Aurrekoetxea (MIT\, Cambridge\, USA)\n\nScalar fields arou
+ nd black hole binaries in LIGO-Virgo-KAGRA\n\nhttps://www.ceico.cz/seminar
+ s/archive/2026/#2026-01-21-josu-aurrekoetxea
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-01-21-josu-aurrekoetxe
+ a
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-01-28-nicolas-loayza-romero@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260128T113000
+DTEND;TZID=Europe/Prague:20260128T123000
+SUMMARY:Cosmo: Nicolas Loayza Romero – Thinking within the box\, or how t
+ o study the Early Universe
+LOCATION:Lecture Hall
+DESCRIPTION:Nicolas Loayza Romero (CEICO\, Prague\, Czech Republic)\n\nThin
+ king within the box\, or how to study the Early Universe\n\nhttps://www.ce
+ ico.cz/seminars/archive/2026/#2026-01-28-nicolas-loayza-romero
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-01-28-nicolas-loayza-r
+ omero
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-04-pietro-ghedini@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260204T113000
+DTEND;TZID=Europe/Prague:20260204T123000
+SUMMARY:Cosmo: Pietro Ghedini – Beyond the Cosmological Constant: The Dar
+ k Energy Quest
+LOCATION:Lecture Hall
+DESCRIPTION:Pietro Ghedini (IFIC\, Valencia\, Spain)\n\nBeyond the Cosmolog
+ ical Constant: The Dark Energy Quest\n\nhttps://www.ceico.cz/seminars/arch
+ ive/2026/#2026-02-04-pietro-ghedini
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-02-04-pietro-ghedini
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-09-rene-meyer@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260209T140000
+DTEND;TZID=Europe/Prague:20260209T150000
+SUMMARY:Strings: René Meyer – Aspects of PT symmetric Non-Hermiticity in
+  AdS/CFT and in SYK models
+LOCATION:Room 226
+DESCRIPTION:René Meyer (Institute for Theoretical Physics and Astrophysics
+ \, University of Würzburg\, Germany)\n\nAspects of PT symmetric Non-Hermi
+ ticity in AdS/CFT and in SYK models\n\nhttps://www.ceico.cz/seminars/archi
+ ve/2026/#2026-02-09-rene-meyer
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-02-09-rene-meyer
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-11-jorge-baeza-ballesteros@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260211T113000
+DTEND;TZID=Europe/Prague:20260211T123000
+SUMMARY:Cosmo: Jorge Baeza-Ballesteros – Particle and gravitational wave 
+ emission from cosmic string loops
+LOCATION:Room 1.32 Solid Building
+DESCRIPTION:Jorge Baeza-Ballesteros (DESY\, Zeuthen\, Germany)\n\nParticle 
+ and gravitational wave emission from cosmic string loops\n\nhttps://www.ce
+ ico.cz/seminars/archive/2026/#2026-02-11-jorge-baeza-ballesteros
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-02-11-jorge-baeza-ball
+ esteros
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-18-manuel-del-piano@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260218T113000
+DTEND;TZID=Europe/Prague:20260218T123000
+SUMMARY:Cosmo: Manuel Del Piano – The Effective Metric Description: a par
+ ametrization for black hole spacetimes beyond General Relativity
+LOCATION:Lecture Hall
+DESCRIPTION:Manuel Del Piano (University of Southern Denmark\, Odense\, Den
+ mark)\n\nThe Effective Metric Description: a parametrization for black hol
+ e spacetimes beyond General Relativity\n\nhttps://www.ceico.cz/seminars/ar
+ chive/2026/#2026-02-18-manuel-del-piano
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-02-18-manuel-del-piano
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-23-masahito-yamazaki@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260223T140000
+DTEND;TZID=Europe/Prague:20260223T150000
+SUMMARY:Strings: Masahito Yamazaki – Emergent Symmetries in Ensemble Aver
+ ages
+LOCATION:Room 226
+DESCRIPTION:Masahito Yamazaki (IPMU\, University of Tokyo)\n\nEmergent Symm
+ etries in Ensemble Averages\n\nhttps://www.ceico.cz/seminars/archive/2026/
+ #2026-02-23-masahito-yamazaki
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-02-23-masahito-yamazak
+ i
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-25-vitor-da-fonseca@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260225T113000
+DTEND;TZID=Europe/Prague:20260225T123000
+SUMMARY:Cosmo: Vitor da Fonseca – Beyond quintessence: scaling from a hyb
+ rid three-form formalism
+LOCATION:Lecture Hall
+DESCRIPTION:Vitor da Fonseca (University of Lisbona\, Lisbona\, Portugal)\n
+ \nBeyond quintessence: scaling from a hybrid three-form formalism\n\nhttps
+ ://www.ceico.cz/seminars/archive/2026/#2026-02-25-vitor-da-fonseca
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-02-25-vitor-da-fonseca
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-04-alexandros-papageorgiou@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260304T113000
+DTEND;TZID=Europe/Prague:20260304T123000
+SUMMARY:Cosmo: Alexandros Papageorgiou – Axions and non-Abelian gauge fie
+ lds dynamics during inflation
+LOCATION:Lecture Hall
+DESCRIPTION:Alexandros Papageorgiou (IFT\, Madrid\, Spain)\n\nAxions and no
+ n-Abelian gauge fields dynamics during inflation\n\nhttps://www.ceico.cz/s
+ eminars/archive/2026/#2026-03-04-alexandros-papageorgiou
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-03-04-alexandros-papag
+ eorgiou
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-09-enrico-perron-cabus@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260309T140000
+DTEND;TZID=Europe/Prague:20260309T150000
+SUMMARY:Strings: Enrico Perron Cabus – Co-algebraic methods for Quantum F
+ ield Theory and String Field Theory
+LOCATION:Room 226
+DESCRIPTION:Enrico Perron Cabus (Uppsala University\, Uppsala\, Sweden)\n\n
+ Co-algebraic methods for Quantum Field Theory and String Field Theory\n\nh
+ ttps://www.ceico.cz/seminars/archive/2026/#2026-03-09-enrico-perron-cabus
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-03-09-enrico-perron-ca
+ bus
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-11-tays-miranda@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260311T113000
+DTEND;TZID=Europe/Prague:20260311T123000
+SUMMARY:Cosmo: Tays Miranda – Stochastic Effects Beyond Inflation
+LOCATION:Lecture Hall
+DESCRIPTION:Tays Miranda (CBPF\, Rio de Janeiro\, Brazil)\n\nStochastic Eff
+ ects Beyond Inflation\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-
+ 03-11-tays-miranda
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-03-11-tays-miranda
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-16-ricardo-monteiro@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260316T140000
+DTEND;TZID=Europe/Prague:20260316T150000
+SUMMARY:Strings: Ricardo Monteiro – Superstring amplitudes from the field
+ -theory limit
+LOCATION:Room 226
+DESCRIPTION:Ricardo Monteiro (Queen Mary University of London\, London\, UK
+ )\n\nSuperstring amplitudes from the field-theory limit\n\nhttps://www.cei
+ co.cz/seminars/archive/2026/#2026-03-16-ricardo-monteiro
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-03-16-ricardo-monteiro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-18-alberto-mangiagli@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260318T113000
+DTEND;TZID=Europe/Prague:20260318T123000
+SUMMARY:Cosmo: Alberto Mangiagli – Constraining cosmological parameters a
+ t high redshift with massive black hole binaries
+LOCATION:Lecture Hall
+DESCRIPTION:Alberto Mangiagli (MPI\, Potsdam\, Germany)\n\nConstraining cos
+ mological parameters at high redshift with massive black hole binaries\n\n
+ https://www.ceico.cz/seminars/archive/2026/#2026-03-18-alberto-mangiagli
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-03-18-alberto-mangiagl
+ i
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-25-carlos-herdeiro@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260325T113000
+DTEND;TZID=Europe/Prague:20260325T123000
+SUMMARY:Cosmo: Carlos Herdeiro – Spectrum and dynamics of bosonic stars a
+ nd their hairy black holes
+LOCATION:Lecture Hall
+DESCRIPTION:Carlos Herdeiro (Aveiro University\, Aveiro\, Portugal)\n\nSpec
+ trum and dynamics of bosonic stars and their hairy black holes\n\nhttps://
+ www.ceico.cz/seminars/archive/2026/#2026-03-25-carlos-herdeiro
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-03-25-carlos-herdeiro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-01-guillem-domenech@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260401T113000
+DTEND;TZID=Europe/Prague:20260401T123000
+SUMMARY:Cosmo: Guillem Domènech – Secondary gravitational waves in modif
+ ied gravity
+LOCATION:Lecture Hall
+DESCRIPTION:Guillem Domènech (Leibniz University\, Hannover\, Germany)\n\n
+ Secondary gravitational waves in modified gravity\n\nhttps://www.ceico.cz/
+ seminars/archive/2026/#2026-04-01-guillem-domenech
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-04-01-guillem-domenech
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-08-theo-simon@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260408T113000
+DTEND;TZID=Europe/Prague:20260408T123000
+SUMMARY:Cosmo: Théo Simon – Constraining the dark sector and the initial
+  conditions of the Universe with the EFTofLSS
+LOCATION:Lecture Hall
+DESCRIPTION:Théo Simon (LUPM\, Montpellier\, France)\n\nConstraining the d
+ ark sector and the initial conditions of the Universe with the EFTofLSS\n\
+ nhttps://www.ceico.cz/seminars/archive/2026/#2026-04-08-theo-simon
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-04-08-theo-simon
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-13-paolo-rossi@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260413T140000
+DTEND;TZID=Europe/Prague:20260413T150000
+SUMMARY:Strings: Paolo Rossi – Entanglement Entropy through Topological D
+ efects in 2d Rational CFT
+LOCATION:Room 226
+DESCRIPTION:Paolo Rossi (Institute of Physics of the Academy of Sciences of
+  the Czech Republic\, Prague\, Cz)\n\nEntanglement Entropy through Topolog
+ ical Defects in 2d Rational CFT\n\nhttps://www.ceico.cz/seminars/archive/2
+ 026/#2026-04-13-paolo-rossi
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-04-13-paolo-rossi
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-15-gabriella-de-lucia@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260415T113000
+DTEND;TZID=Europe/Prague:20260415T123000
+SUMMARY:Cosmo: Gabriella De Lucia – Modeling Galaxies Across Cosmic Time:
+  from GAEA physics to Euclid and SKA observables
+LOCATION:Lecture Hall
+DESCRIPTION:Gabriella De Lucia (Trieste Observatory\, Trieste\, Italy)\n\nM
+ odeling Galaxies Across Cosmic Time: from GAEA physics to Euclid and SKA o
+ bservables\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-04-15-gabri
+ ella-de-lucia
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-04-15-gabriella-de-luc
+ ia
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-22-clare-burrage@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260422T113000
+DTEND;TZID=Europe/Prague:20260422T123000
+SUMMARY:Cosmo: Clare Burrage – The Dark Universe: from Cosmology to the L
+ aboratory
+LOCATION:Lecture Hall
+DESCRIPTION:Clare Burrage (Nottingham University\, Nottingham\, UK)\n\nThe 
+ Dark Universe: from Cosmology to the Laboratory\n\nhttps://www.ceico.cz/se
+ minars/archive/2026/#2026-04-22-clare-burrage
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-04-22-clare-burrage
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-29-gerasimos-rigopoulos@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260429T113000
+DTEND;TZID=Europe/Prague:20260429T123000
+SUMMARY:Cosmo: Gerasimos Rigopoulos – Stochastic Inflation in (Numerical)
+  General Relativity
+LOCATION:Lecture Hall
+DESCRIPTION:Gerasimos Rigopoulos (Newcastle University\, Newcastle upon Tyn
+ e\, UK)\n\nStochastic Inflation in (Numerical) General Relativity\n\nhttps
+ ://www.ceico.cz/seminars/archive/2026/#2026-04-29-gerasimos-rigopoulos
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-04-29-gerasimos-rigopo
+ ulos
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-06-laur-jarv@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260506T113000
+DTEND;TZID=Europe/Prague:20260506T123000
+SUMMARY:Cosmo: Laur Jarv – Dark energy and inflation from hyperfluids
+LOCATION:Lecture Hall
+DESCRIPTION:Laur Jarv (Tartu University\, Tartu\, Estonia)\n\nDark energy a
+ nd inflation from hyperfluids\n\nhttps://www.ceico.cz/seminars/archive/202
+ 6/#2026-05-06-laur-jarv
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-05-06-laur-jarv
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-11-davide-laurenzano@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260511T140000
+DTEND;TZID=Europe/Prague:20260511T150000
+SUMMARY:Strings: Davide Laurenzano – Fuzzy black holes from mass generati
+ on in matrix compactification
+LOCATION:Room 226
+DESCRIPTION:Davide Laurenzano (University of Oxford \, UK)\n\nFuzzy black h
+ oles from mass generation in matrix compactification\n\nhttps://www.ceico.
+ cz/seminars/archive/2026/#2026-05-11-davide-laurenzano
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-05-11-davide-laurenzan
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-13-jerome-martin@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260513T113000
+DTEND;TZID=Europe/Prague:20260513T123000
+SUMMARY:Cosmo: Jerôme Martin – Primordial Gravitational Waves in the Hig
+ h Frequency Regime
+LOCATION:Lecture Hall
+DESCRIPTION:Jerôme Martin (IAP\, Paris\, France)\n\nPrimordial Gravitation
+ al Waves in the High Frequency Regime\n\nhttps://www.ceico.cz/seminars/arc
+ hive/2026/#2026-05-13-jerome-martin
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-05-13-jerome-martin
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-20-alberto-garcia-martin-caro@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260520T113000
+DTEND;TZID=Europe/Prague:20260520T123000
+SUMMARY:Cosmo: Alberto García Martín-Caro – Catastrophic collapse from 
+ strings and walls
+LOCATION:Lecture Hall
+DESCRIPTION:Alberto García Martín-Caro (Vigo University\, Vigo\, Ponteved
+ ra\, Spain)\n\nCatastrophic collapse from strings and walls\n\nhttps://www
+ .ceico.cz/seminars/archive/2026/#2026-05-20-alberto-garcia-martin-caro
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-05-20-alberto-garcia-m
+ artin-caro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-27-jorinde-marjolein-van-de-vis@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260527T113000
+DTEND;TZID=Europe/Prague:20260527T123000
+SUMMARY:Cosmo: Jorinde Marjolein Van De Vis – Progress in electroweak bar
+ yogenesis and bubble wall dynamics
+LOCATION:Lecture Hall
+DESCRIPTION:Jorinde Marjolein Van De Vis (CERN\, Geneva\, Switzerland)\n\nP
+ rogress in electroweak baryogenesis and bubble wall dynamics\n\nhttps://ww
+ w.ceico.cz/seminars/archive/2026/#2026-05-27-jorinde-marjolein-van-de-vis
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-05-27-jorinde-marjolei
+ n-van-de-vis
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-01-chandrasekhar-bhamidipati@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260601T140000
+DTEND;TZID=Europe/Prague:20260601T150000
+SUMMARY:Strings: Chandrasekhar Bhamidipati – Criticality of ISCOs and AdS
+ /CFT
+LOCATION:Room 226
+DESCRIPTION:Chandrasekhar Bhamidipati (Indian Inst. Tech.\, Bhubaneswar\, I
+ ndia)\n\nCriticality of ISCOs and AdS/CFT\n\nhttps://www.ceico.cz/seminars
+ /archive/2026/#2026-06-01-chandrasekhar-bhamidipati
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-06-01-chandrasekhar-bh
+ amidipati
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-03-marco-de-cesare@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260603T113000
+DTEND;TZID=Europe/Prague:20260603T123000
+SUMMARY:Cosmo: Marco De Cesare – Cosmological effects on gravitational-wa
+ ve propagation in bigravity
+LOCATION:Lecture Hall
+DESCRIPTION:Marco De Cesare (Scuola Superiore Meridionale\, Napoli\, Italy)
+ \n\nCosmological effects on gravitational-wave propagation in bigravity\n\
+ nhttps://www.ceico.cz/seminars/archive/2026/#2026-06-03-marco-de-cesare
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-06-03-marco-de-cesare
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-10-serena-giardino@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260610T113000
+DTEND;TZID=Europe/Prague:20260610T123000
+SUMMARY:Cosmo: Serena Giardino – Testing modified gravity with gravitatio
+ nal wave lensing
+LOCATION:Lecture Hall
+DESCRIPTION:Serena Giardino (Imperial College London\, London\, UK)\n\nTest
+ ing modified gravity with gravitational wave lensing\n\nhttps://www.ceico.
+ cz/seminars/archive/2026/#2026-06-10-serena-giardino
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-06-10-serena-giardino
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-17-dorian-warren-praia-do-amaral@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260617T113000
+DTEND;TZID=Europe/Prague:20260617T123000
+SUMMARY:Cosmo: Dorian Warren Praia Do Amaral – Floating into New Physics 
+ with Levitated Ferromagnets
+LOCATION:Lecture Hall
+DESCRIPTION:Dorian Warren Praia Do Amaral (IFAE\, Barcelona\, Spain)\n\nFlo
+ ating into New Physics with Levitated Ferromagnets\n\nhttps://www.ceico.cz
+ /seminars/archive/2026/#2026-06-17-dorian-warren-praia-do-amaral
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-06-17-dorian-warren-pr
+ aia-do-amaral
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-24-panagiotis-giannadakis@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260624T113000
+DTEND;TZID=Europe/Prague:20260624T123000
+SUMMARY:Cosmo: Panagiotis Giannadakis – Probing the Early Universe with N
+ umerical Relativity
+LOCATION:Lecture Hall
+DESCRIPTION:Panagiotis Giannadakis (King's College London\, London\, UK)\n\
+ nProbing the Early Universe with Numerical Relativity\n\nhttps://www.ceico
+ .cz/seminars/archive/2026/#2026-06-24-panagiotis-giannadakis
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-06-24-panagiotis-giann
+ adakis
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-01-nelson-pinto-neto@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260701T113000
+DTEND;TZID=Europe/Prague:20260701T123000
+SUMMARY:Cosmo: Nelson Pinto-Neto – Bouncing completion of eternal inflati
+ on
+LOCATION:Lecture Hall
+DESCRIPTION:Nelson Pinto-Neto (Centro Brasileiro de Pesquisas Físicas (CBP
+ F)\, Rio de Janeiro\, Brazil)\n\nBouncing completion of eternal inflation\
+ n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-07-01-nelson-pinto-net
+ o
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-07-01-nelson-pinto-net
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-06-monica-jinwoo-kang@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260706T140000
+DTEND;TZID=Europe/Prague:20260706T150000
+SUMMARY:Strings: Monica Jinwoo Kang – Algebro-geometric bootstrapping fro
+ m OPE decoupling
+LOCATION:Room 226
+DESCRIPTION:Monica Jinwoo Kang (Mitchell Institute for Fundamental Physics 
+ and Astronomy\, Texas A&M University\, College Station\, USA)\n\nAlgebro-g
+ eometric bootstrapping from OPE decoupling\n\nhttps://www.ceico.cz/seminar
+ s/archive/2026/#2026-07-06-monica-jinwoo-kang
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-07-06-monica-jinwoo-ka
+ ng
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-20-gideon-vos@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260720T140000
+DTEND;TZID=Europe/Prague:20260720T150000
+SUMMARY:Strings: Gideon Vos – How are 2D CFTs thermalized?
+LOCATION:Room 226
+DESCRIPTION:Gideon Vos (Korea Institute for Advanced Studies\, Seoul\, Kore
+ a)\n\nHow are 2D CFTs thermalized?\n\nhttps://www.ceico.cz/seminars/archiv
+ e/2026/#2026-07-20-gideon-vos
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-07-20-gideon-vos
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-22-carlo-maccaferri@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260722T140000
+DTEND;TZID=Europe/Prague:20260722T150000
+SUMMARY:Strings: Carlo Maccaferri – Boundary Observables in String Field 
+ Theory
+LOCATION:Room 226
+DESCRIPTION:Carlo Maccaferri (Università di Torino\, Italy)\n\nBoundary Ob
+ servables in String Field Theory\n\nhttps://www.ceico.cz/seminars/archive/
+ 2026/#2026-07-22-carlo-maccaferri
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-07-22-carlo-maccaferri
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-28-babak-haghighat@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260728T140000
+DTEND;TZID=Europe/Prague:20260728T150000
+SUMMARY:Strings: Babak Haghighat – Quantum Flat Connections\, KZ equation
+ s\, and Integrability
+LOCATION:Room 226
+DESCRIPTION:Babak Haghighat (Tsinghua University Beijing\, China)\n\nQuantu
+ m Flat Connections\, KZ equations\, and Integrability\n\nhttps://www.ceico
+ .cz/seminars/archive/2026/#2026-07-28-babak-haghighat
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-07-28-babak-haghighat
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-31-vinicius-bernardes@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260831T140000
+DTEND;TZID=Europe/Prague:20260831T150000
+SUMMARY:Strings: Vinícius Bernardes – Conserved charges in non-local the
+ ories
+LOCATION:Room 226
+DESCRIPTION:Vinícius Bernardes (FZU Prague\, Czech Republic)\n\nConserved 
+ charges in non-local theories\n\nhttps://www.ceico.cz/seminars/archive/202
+ 6/#2026-08-31-vinicius-bernardes
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-08-31-vinicius-bernard
+ es
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-07-andrea-campoleoni@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260907T140000
+DTEND;TZID=Europe/Prague:20260907T150000
+SUMMARY:Strings: Andrea Campoleoni – Hints for higher-spin holography in 
+ flat space
+LOCATION:Room 226
+DESCRIPTION:Andrea Campoleoni (Université de Mons\, Belgian)\n\nHints for 
+ higher-spin holography in flat space\n\nhttps://www.ceico.cz/seminars/arch
+ ive/2026/#2026-09-07-andrea-campoleoni
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-09-07-andrea-campoleon
+ i
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-08-stefan-fredenhagen@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260908T140000
+DTEND;TZID=Europe/Prague:20260908T150000
+SUMMARY:Strings: Stefan Fredenhagen – From flat space gravity to Carrolli
+ an W-algebras
+LOCATION:Room 226
+DESCRIPTION:Stefan Fredenhagen (University of Vienna\, Austria)\n\nFrom fla
+ t space gravity to Carrollian W-algebras\n\nhttps://www.ceico.cz/seminars/
+ archive/2026/#2026-09-08-stefan-fredenhagen
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-09-08-stefan-fredenhag
+ en
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-22-christopher-m-hull@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260922T140000
+DTEND;TZID=Europe/Prague:20260922T150000
+SUMMARY:Strings: Christopher M. Hull – A New Superstring Field Theory
+LOCATION:Adela Kochanovska Hall
+DESCRIPTION:Christopher M. Hull (Imperial College London\, UK)\n\nA New Sup
+ erstring Field Theory\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-
+ 09-22-christopher-m-hull
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-09-22-christopher-m-hu
+ ll
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-23-enrico-maraboli@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260923T113000
+DTEND;TZID=Europe/Prague:20260923T123000
+SUMMARY:Cosmo: Enrico Maraboli – Unveiling galaxy clusters through dynami
+ cs: a window on dark matter and cosmology
+LOCATION:Lecture Hall
+DESCRIPTION:Enrico Maraboli (Università degli Studi di Milano\, Milan\, It
+ aly)\n\nUnveiling galaxy clusters through dynamics: a window on dark matte
+ r and cosmology\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-09-23-
+ enrico-maraboli
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-09-23-enrico-maraboli
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-24-poul-h-damgaard@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20260924T153000
+DTEND;TZID=Europe/Prague:20260924T163000
+SUMMARY:Strings: Poul H. Damgaard – Solving perturbative gravitational dy
+ namics by recursion.
+LOCATION:Dvořák Lecture Hall
+DESCRIPTION:Poul H. Damgaard (Niels Bohr Institute\, Denmark)\n\nSolving pe
+ rturbative gravitational dynamics by recursion.\n\nhttps://www.ceico.cz/se
+ minars/archive/2026/#2026-09-24-poul-h-damgaard
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-09-24-poul-h-damgaard
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-07-areef-waeming@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261007T113000
+DTEND;TZID=Europe/Prague:20261007T123000
+SUMMARY:Cosmo: Areef Waeming – Oscillon and Black Hole Formation in Cosmo
+ logical Preheating
+LOCATION:Dvořák Lecture Hall
+DESCRIPTION:Areef Waeming (Queen Mary\, University of London\, London\, UK)
+ \n\nOscillon and Black Hole Formation in Cosmological Preheating\n\nhttps:
+ //www.ceico.cz/seminars/archive/2026/#2026-10-07-areef-waeming
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-10-07-areef-waeming
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-12-sitender-pratap-kashyap@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261012T140000
+DTEND;TZID=Europe/Prague:20261012T150000
+SUMMARY:Strings: Sitender Pratap Kashyap – A field-inspired derivation of
+  open string amplitudes
+LOCATION:Room 226
+DESCRIPTION:Sitender Pratap Kashyap (FZU Prague\, Czech Republic)\n\nA fiel
+ d-inspired derivation of open string amplitudes\n\nhttps://www.ceico.cz/se
+ minars/archive/2026/#2026-10-12-sitender-pratap-kashyap
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-10-12-sitender-pratap-
+ kashyap
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-14-ilya-shapiro@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261014T113000
+DTEND;TZID=Europe/Prague:20261014T123000
+SUMMARY:Cosmo: Ilya Shapiro – Confinement of ghosts and stability in high
+ er derivative quantum gravity
+LOCATION:Dvořák Lecture Hall
+DESCRIPTION:Ilya Shapiro (Juiz de Fora University\, Minas Gerais\, Brazil)\
+ n\nConfinement of ghosts and stability in higher derivative quantum gravit
+ y\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-10-14-ilya-shapiro
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-10-14-ilya-shapiro
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-19-linus-wulff@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261019T140000
+DTEND;TZID=Europe/Prague:20261019T150000
+SUMMARY:Strings: Linus Wulff – Riemann^4 correction in ten and eleven dim
+ ensions
+LOCATION:Room 226
+DESCRIPTION:Linus Wulff (Masaryk University\, Brno\, Czech Republic)\n\nRie
+ mann^4 correction in ten and eleven dimensions\n\nhttps://www.ceico.cz/sem
+ inars/archive/2026/#2026-10-19-linus-wulff
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-10-19-linus-wulff
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-alexander-kamenshchik@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261021T113000
+DTEND;TZID=Europe/Prague:20261021T123000
+SUMMARY:Cosmo: Alexander Kamenshchik – Infrared divergences in de Sitter 
+ spacetime\, stochastic approach\, autonomous equation and Borel resummatio
+ n
+LOCATION:Adéla Kochanovská Hall
+DESCRIPTION:Alexander Kamenshchik (University of Bologna\, Bologna\, Italy)
+ \n\nInfrared divergences in de Sitter spacetime\, stochastic approach\, au
+ tonomous equation and Borel resummation\n\nhttps://www.ceico.cz/seminars/a
+ rchive/2026/#2026-10-21-alexander-kamenshchik
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-10-21-alexander-kamens
+ hchik
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26-christian-northe@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261026T140000
+DTEND;TZID=Europe/Prague:20261026T150000
+SUMMARY:Strings: Christian Northe – Entanglement Through Topological Inte
+ rfaces
+LOCATION:Room 226
+DESCRIPTION:Christian Northe (FZU\, Prague\, Czech Republic)\n\nEntanglemen
+ t Through Topological Interfaces\n\nhttps://www.ceico.cz/seminars/archive/
+ 2026/#2026-10-26-christian-northe
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-10-26-christian-northe
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27-riccardo-poletti@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261027T140000
+DTEND;TZID=Europe/Prague:20261027T150000
+SUMMARY:Strings: Riccardo Poletti – Entanglement Through Topological Inte
+ rfaces
+LOCATION:Room 226
+DESCRIPTION:Riccardo Poletti (FZU\, Prague\, Czech Republic)\n\nEntanglemen
+ t Through Topological Interfaces\n\nhttps://www.ceico.cz/seminars/archive/
+ 2026/#2026-10-27-riccardo-poletti
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-10-27-riccardo-poletti
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-02-atakan-hilmi-frat@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261102T140000
+DTEND;TZID=Europe/Prague:20261102T150000
+SUMMARY:Strings: Atakan Hilmi Fırat – Runaway oscillations in rolling ta
+ chyons revisited
+LOCATION:Room 226
+DESCRIPTION:Atakan Hilmi Fırat (Ludwig-Maximilians-Universität München\,
+  München\, Germany)\n\nRunaway oscillations in rolling tachyons revisited
+ \n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-11-02-atakan-hilmi-fr
+ at
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-11-02-atakan-hilmi-fra
+ t
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04-julian-adamek@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261104T113000
+DTEND;TZID=Europe/Prague:20261104T123000
+SUMMARY:Cosmo: Julian Adamek – Simulating large-scale structure for a cur
+ ved Universe
+LOCATION:Dvořák Lecture Hall
+DESCRIPTION:Julian Adamek (University of Zurich\, Zurich\, Switzerland)\n\n
+ Simulating large-scale structure for a curved Universe\n\nhttps://www.ceic
+ o.cz/seminars/archive/2026/#2026-11-04-julian-adamek
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-11-04-julian-adamek
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-09-sachin-grover@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261109T140000
+DTEND;TZID=Europe/Prague:20261109T150000
+SUMMARY:Strings: Sachin Grover – The null worldsheet description of CHY a
+ mplitudes and double copy
+LOCATION:Room 226
+DESCRIPTION:Sachin Grover (Indian Inst. Tech.\, Kanpur\, India)\n\nThe null
+  worldsheet description of CHY amplitudes and double copy\n\nhttps://www.c
+ eico.cz/seminars/archive/2026/#2026-11-09-sachin-grover
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-11-09-sachin-grover
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-samuel-sanchez-lopez@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261111T113000
+DTEND;TZID=Europe/Prague:20261111T123000
+SUMMARY:Cosmo: Samuel Sanchez Lopez – From Inflation to Cosmic Structure:
+  An Action-Based Two-Fluid Approach
+LOCATION:Dvořák Lecture Hall
+DESCRIPTION:Samuel Sanchez Lopez (Institut d'Astrophysique de Paris\, Paris
+ \, France)\n\nFrom Inflation to Cosmic Structure: An Action-Based Two-Flui
+ d Approach\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-11-11-samue
+ l-sanchez-lopez
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-11-11-samuel-sanchez-l
+ opez
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-andrzej-wereszczynski@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261118T113000
+DTEND;TZID=Europe/Prague:20261118T123000
+SUMMARY:Cosmo: Andrzej Wereszczyński – Standard Model Effective Field Th
+ eory and Oscillons (and vortices)
+LOCATION:A. Kochanovské Hall
+DESCRIPTION:Andrzej Wereszczyński (Jagiellonian University\, Kraków\, Pol
+ and)\n\nStandard Model Effective Field Theory and Oscillons (and vortices)
+ \n\nI will show that the inclusion of a dimension-six operator in the Higg
+ s potential has a dramatic impact on the stability of oscillons in the SU 
+ (2) bosonic sector of the Standard Model\, extending their lifetime by mor
+ e than an order of magnitude. This happens for the physical value of the r
+ atio between the Higgs and W boson masses\, m_H /m_W =1.556 and for the di
+ mension-six operator O_6 = (Φ†Φ)^3 whose coupling constant is below th
+ e current upper bound. I will also show how this operator changes the form
+ ation of vortices\, which form the ground state of EW theory at a large ex
+ ternal magnetic field.\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026
+ -11-18-andrzej-wereszczynski
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-11-18-andrzej-wereszcz
+ ynski
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-duarte-feiteira@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261125T113000
+DTEND;TZID=Europe/Prague:20261125T123000
+SUMMARY:Cosmo: Duarte Feiteira – Cosmological gravitational particle prod
+ uction and implications for dark matter phenomenology
+LOCATION:Institute of Plasma Physics building - room 421
+DESCRIPTION:Duarte Feiteira (University of Helsinki\, Finland)\n\nCosmologi
+ cal gravitational particle production and implications for dark matter phe
+ nomenology\n\nParticle production in the Early Universe is one of the corn
+ erstones of modern cosmology and plays an important role in dark matter ph
+ enomenology. In this talk\, I will first discuss the gravitational product
+ ion of scalars during inflation. I will compare Bogolyubov coefficient and
+  Starobinsky stochastic approaches\, showing that they only agree in the l
+ imit of infinitely long inflation. High-scale inflation is very efficient 
+ in particle production\, leading to constraints on the existence of free\,
+  light\, and stable scalars: such particles are viable only if their masse
+ s are below the eV scale or if the reheating temperature is in the GeV ran
+ ge. These constraints motivate scenarios in which dark matter is produced 
+ via low-temperature freeze-in. In this framework\, I will consider warm Hi
+ ggs portal dark matter. In scenarios where the Standard Model thermal bath
+  never reached high temperatures\, dark matter production can be suppresse
+ d. This allows for a significant dark matter-Higgs coupling\, enabling war
+ m dark matter detection via Higgs decay at colliders. I will further discu
+ ss the strong Lyman-α bound on the dark matter mass\, excluding masses be
+ low 50-100 keV\, and show how the shape of the warm dark matter momentum d
+ istribution is highly non-thermal and not captured by the commonly used α
+ βγ-parametrization.\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-
+ 11-25-duarte-feiteira
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-11-25-duarte-feiteira
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-27-ilka-brunner@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261127T110000
+DTEND;TZID=Europe/Prague:20261127T120000
+SUMMARY:Strings: Ilka Brunner – Towards Quantum elliptic cohomology
+LOCATION:Room 226
+DESCRIPTION:Ilka Brunner (Arnold Sommerfeld Center for Theoretical Physics\
+ , LMU München\, Germany)\n\nTowards Quantum elliptic cohomology\n\nI will
+  discuss how N=1 gauge theories on a disk times a torus suggests the exist
+ ence of a quantum deformation of equivariant elliptic cohomology. We give 
+ a geometric interpretation of potential anomalies\, and discuss Ward ident
+ ities.\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-11-27-ilka-brun
+ ner
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-11-27-ilka-brunner
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-30-lorenzo-grimaldi@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20261130T140000
+DTEND;TZID=Europe/Prague:20261130T150000
+SUMMARY:Strings: Lorenzo Grimaldi – One-loop self-energy of Type II heavy
+  string states
+LOCATION:Room 226
+DESCRIPTION:Lorenzo Grimaldi (Tor Vergata University of Rome\, Italy)\n\nOn
+ e-loop self-energy of Type II heavy string states\n\nThe free string spect
+ rum is highly degenerate\, with a degeneracy that grows exponentially with
+  the mass\, making highly excited strings natural candidates for black-hol
+ e microstates in the string/black-hole correspondence. A non-vanishing str
+ ing coupling $g_s$ makes massive states unstable and shifts their masses\,
+  partially lifting this degeneracy. At one loop\, the imaginary part of th
+ e self-energy gives the tree-level width for the decay into two lower-mass
+  states\, whereas the real part gives the mass shift and is generally IR-d
+ ivergent. We firstly focus on the states of maximal spin at each level in 
+ the NS-NS sector of Type II theories\, for which the analysis simplifies b
+ ecause they cannot mix with other states. Exploiting elliptic functions\, 
+ we obtain a closed-form expression for the worldsheet integral on the toru
+ s. We then regularize and renormalize the remaining modular integral via t
+ he $i\\varepsilon$-prescription\, extracting mass shifts and decay widths 
+ up to level $N=10$.\n\nhttps://www.ceico.cz/seminars/archive/2026/#2026-11
+ -30-lorenzo-grimaldi
+URL:https://www.ceico.cz/seminars/archive/2026/#2026-11-30-lorenzo-grimaldi
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-11-antonio-antunes@ceico.cz
+DTSTAMP:20261128T040319Z
+DTSTART;TZID=Europe/Prague:20270111T140000
+DTEND;TZID=Europe/Prague:20270111T150000
+SUMMARY:Strings: António Antunes – Towards the explicit construction of 
+ generic 2d CFTs
+LOCATION:Room 226
+DESCRIPTION:António Antunes (LPENS\, Paris\, France)\n\nTowards the explic
+ it construction of generic 2d CFTs\n\nOur understanding of interacting CFT
+ s in d>2 dimensions was revolutionized by modern developments in the analy
+ tical and numerical conformal bootstrap. The poster child of this program\
+ , the non-exactly solvable 3d Ising CFT\, is now understood to an unpreced
+ ented level of detail. In contrast\, our understanding of 2d CFTs encompas
+ ses large classes of exactly solvable models (the so-called rational CFTs)
+ \, and a set of universal bootstrap results which apply only to "generic" 
+ non-exactly solvable CFTs of which no concrete example is available. In th
+ is talk\, we summarize our recent attempts at constructing such theories b
+ y coupling exactly solvable CFTs and flowing to IR fixed points. We will d
+ iscuss perturbative and non-perturbative constructions as well as some dua
+ l bounds on the set of conserved currents in the IR..\n\nhttps://www.ceico
+ .cz/seminars/archive/2027/#2027-01-11-antonio-antunes
+URL:https://www.ceico.cz/seminars/archive/2027/#2027-01-11-antonio-antunes
+END:VEVENT
+END:VCALENDAR
+
